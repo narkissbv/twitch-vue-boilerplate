@@ -4,6 +4,9 @@
 </template>
 
 <script setup>
+  import { useStore } from 'vuex'
+  import { computed } from 'vue'
+
   const store = useStore()
   const username = computed(() => store.state.username);
   const authData = store.state.auth;
