@@ -4,6 +4,10 @@
 
 <script setup>
   import twitch from '@/utils/twitch'
+  import { useStore } from 'vuex'
+  import { computed, onMounted } from 'vue'
+  import MainPage from './views/MainPage';
+  import AuthPage from './views/AuthPage';
 
   const store = useStore()
   const viewer = computed(() => store.state.viewer)
