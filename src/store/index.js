@@ -46,7 +46,6 @@ const store = createStore({
         console.log('Failed API request to retieve user data from Twitch');
       }
     },
-
-
   },
 })
+export default store
