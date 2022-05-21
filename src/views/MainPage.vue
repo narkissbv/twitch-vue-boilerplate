@@ -1,6 +1,6 @@
 <template>
   <h2>Welcome, {{ username }}</h2>
-  <p>Auth data: {{ auth }}</p>
+  <p>Auth data: {{ authData }}</p>
 </template>
 
 <script setup>
