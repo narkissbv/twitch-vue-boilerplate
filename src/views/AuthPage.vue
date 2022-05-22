@@ -20,11 +20,8 @@
 
 <style scoped>
 .unauth {
-  display: flex;
   padding: 10px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .unauth p {
