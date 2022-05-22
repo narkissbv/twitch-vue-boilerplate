@@ -29,7 +29,7 @@ If your extension does not require broadcaster management, you can simply remove
   }
 ```
 
-Once built, and deployed on Twitch, set the `Life Config Path` to `broadcaster.html`.
+Once built, and deployed on Twitch, set the `Live Config Path` to `broadcaster.html`.
 
 ## Project setup
 ```
