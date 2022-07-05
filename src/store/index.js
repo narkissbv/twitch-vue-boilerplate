@@ -37,7 +37,7 @@ const store = createStore({
         const userData = await axios.get(`https://api.twitch.tv/helix/users?id=${context.state.viewer.id}`, {
           headers: {
             'Authorization': `Extension ${context.state.auth.helixToken}`,
-            'Client-Id': 'uo78wv9pfkz6j9xtorkwb291wd1rm6'
+            'Client-Id': '' // Extension ID from Twitch
           }
         })
         context.commit('setUsername', userData)
